@@ -1,5 +1,6 @@
-# server restart procedure
-1. Kill
+# Server restart procedures
+
+1. Kill running instances
   - omdc
   - aqbss
   - data order server
@@ -45,7 +46,6 @@
     ```
 
 
-
 3. Restart AQBSS
   ```
   crontab -e
@@ -61,4 +61,4 @@
 
 5. Check logs. Same procedures as in the morning routine check.
 
-6. *Important* Remember to remove all the one-off entries from crontab
+6. **[Important!!]** Remember to remove all the one-off entries from crontab
